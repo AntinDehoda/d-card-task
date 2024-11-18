@@ -1,0 +1,12 @@
+parameters:
+  parse_sources:
+    url:
+      0: 'https://kupichitay.com.ua/product-category/kafka/'
+      1: 'https://kupichitay.com.ua/product-category/chistota-koda/page/3/'
+      2: 'https://kupichitay.com.ua/product-category/devops/'
+    selectors:
+      'products': '//ul[contains(@class,"products")]/li[contains(@class, "product")]'
+      'title': './/h2[contains(@class,"woocommerce-loop-product__title")]/text()'
+      'price': './/span[@class="price"]/span[contains(@class,"amount")]/bdi/text()'
+      'img': './/a[contains(@class,"woocommerce-loop-product__link")]/img'
+      'link': './/a[contains(@class,"woocommerce-loop-product__link")]'
