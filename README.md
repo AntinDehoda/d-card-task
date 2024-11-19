@@ -66,7 +66,7 @@ http://localhost:8000/api/get-products
 1. Clone the repository:
 ```bash
 git clone https://github.com/AntinDehoda/d-card-task.git
-cd https://github.com/AntinDehoda/d-card-task.git
+cd d-card-task
 ```
 
 2. Build and start containers:
